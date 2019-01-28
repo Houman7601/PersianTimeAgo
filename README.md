@@ -2,7 +2,7 @@
 
 * This library will help you display how much time passed.
 
-## Output
+## Demo
 
  ![logo](https://github.com/Houman7601/PersianTimeAgo/blob/master/image/p1.jpg)
 
