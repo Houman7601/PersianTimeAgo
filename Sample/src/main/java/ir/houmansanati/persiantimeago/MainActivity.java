@@ -12,7 +12,6 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-
-        //PersianTimeAgo.Companion.getTimeAgo()
+        String timeago = PersianTimeAgo.Companion.getTimeAgo("2019-01-25 02:32:58");
     }
 }
