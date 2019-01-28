@@ -9,21 +9,20 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Gradle
 
-A step by step series of examples that tell you how to get a development env running
+Step 1. Add the JitPack repository to your build file
+Add it in your root build.gradle at the end of repositories:
 
-Say what the step will be
+	allprojects {
+		repositories {
+			...
+			maven { url 'https://jitpack.io' }
+		}
+	}
+Step 2. Add the dependency
 
-```
-Give the example
-```
-
-And repeat
-
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo
+	dependencies {
+	        implementation 'com.github.Houman7601:PersianTimeAgo:1.0.0'
+	}
 ## Usage
 
 Sample Usage
