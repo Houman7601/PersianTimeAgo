@@ -1,11 +1,15 @@
 # PersianTimeAgo
 
-* This library will help you display the elapsed time.
-* این کتابخانه به شما کمک میکند تا زمان سپری شده را به دست آورید
+* This library will help you display how much time passed.
 
-## Getting Started
+## Output
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+۲۰ ثانیه پیش 
+۳ دقیقه پیش
+۵ ساعت پیش
+۱۲ روز قبل
+۲ ماه پیش
+۱ سال پیش
 
 ### Gradle
 
