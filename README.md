@@ -1,6 +1,6 @@
 # PersianTimeAgo 
 
-* This library will help you display how much time passed.
+* This library will help you display how much time have passed.
 
 ## Demo
 
