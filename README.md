@@ -29,7 +29,7 @@ String timeago = PersianTimeAgo.Companion.getTimeAgo("2019-01-25 02:32:58");
 ```
 In Kotlin
 ```kotlin
-val timeago = PersianTimeAgo.getTimeAgo("2019-01-25 02:32:58");
+val timeago = PersianTimeAgo.getTimeAgo("2019-01-25 02:32:58")
 ```
 
 ## Author
