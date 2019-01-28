@@ -25,8 +25,9 @@ Step 2. Add the dependency
 	}
 ## Usage
 
-Sample Usage
-
+```java
+String timeago = PersianTimeAgo.Companion.getTimeAgo("2019-01-25 02:32:58");
+```
 ## Author
 
 Houman Sanati, houmansnt@gmail.com
