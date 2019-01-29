@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">PerisanTimeAgo</string>
+    <string name="seconds_ago">" ثانیه قبل"</string>
+    <string name="minutes_ago">" دقیقه قبل"</string>
+    <string name="houres_ago">" ساعت قبل"</string>
+    <string name="days_ago">" روز قبل"</string>
+    <string name="months_ago">" ماه قبل"</string>
+    <string name="years_ago">" سال قبل"</string>
+    <string name="moments_ago">لحظاتی پیش</string>
+    <string name="weeks_ago">" هفته قبل"</string>
 </resources>
