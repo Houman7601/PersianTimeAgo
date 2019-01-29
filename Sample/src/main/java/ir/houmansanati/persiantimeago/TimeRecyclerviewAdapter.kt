@@ -4,7 +4,6 @@ package ir.houmansanati.persiantimeago
 import android.content.Context
 import android.support.v7.widget.RecyclerView
 import android.view.LayoutInflater
-import android.view.View
 import android.view.ViewGroup
 import ir.houmansanati.perisantimeago.PersianTimeAgo
 
@@ -25,7 +24,7 @@ class TimeRecyclerviewAdapter(context: Context,times_ago : List<String>) : Recyc
 
     override fun onBindViewHolder(timeViewHolder: TimeViewHolder, i: Int) {
         val txt_time = times_ago.get(timeViewHolder.adapterPosition)
-        timeViewHolder.time.text = PersianTimeAgo.getTimeAgo(txt_time) + " پیش"
+        timeViewHolder.time.text = PersianTimeAgo(context).getTimeAgo(txt_time)
     }
 
     override fun getItemCount(): Int {
