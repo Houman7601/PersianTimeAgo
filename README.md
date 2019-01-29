@@ -1,4 +1,4 @@
-# PersianTimeAgo 
+# PersianTimeAgo [![](https://jitpack.io/v/Houman7601/PersianTimeAgo.svg)](https://jitpack.io/#Houman7601/PersianTimeAgo)
 
 * This library will help you display how much time have passed.
 
@@ -25,7 +25,7 @@ Step 2. Add the dependency
 ## Usage
 
 ```java
-String timeago = PersianTimeAgo(context).getTimeAgo("2019-01-25 02:32:58");
+String timeago = new PersianTimeAgo(context).getTimeAgo("2019-01-25 02:32:58");
 ```
 
 ## Author
