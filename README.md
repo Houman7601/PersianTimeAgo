@@ -4,7 +4,7 @@
 
 ## Demo
 
- ![logo](https://github.com/Houman7601/PersianTimeAgo/blob/master/image/p1.jpg)
+ ![logo](https://github.com/Houman7601/PersianTimeAgo/blob/master/image/p2.jpg)
 
 ### Gradle
 
@@ -23,13 +23,9 @@ Step 2. Add the dependency
 	        implementation 'com.github.Houman7601:PersianTimeAgo:1.0.0'
 	}
 ## Usage
-In java
+
 ```java
-String timeago = PersianTimeAgo.Companion.getTimeAgo("2019-01-25 02:32:58");
-```
-In Kotlin
-```kotlin
-val timeago = PersianTimeAgo.getTimeAgo("2019-01-25 02:32:58")
+String timeago = PersianTimeAgo(context).getTimeAgo("2019-01-25 02:32:58");
 ```
 
 ## Author
