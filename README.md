@@ -20,7 +20,7 @@ Add it in your root build.gradle at the end of repositories:
 Step 2. Add the dependency
 
 	dependencies {
-	        implementation 'com.github.Houman7601:PersianTimeAgo:1.0.0'
+	        implementation 'com.github.Houman7601:PersianTimeAgo:1.0.1'
 	}
 ## Usage
 
@@ -36,3 +36,6 @@ Houman Sanati, houmansnt@gmail.com
 
 * **1.0.0**
     * Initial release
+* **1.0.1**
+    * Added "moments ago"
+    * Added "weeks ago"
